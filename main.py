@@ -69,3 +69,4 @@ if __name__ == "__main__":
 
     md_code = open_ai.summarize_code(project)
     md_generator.createDirectory(project_name, md_code)
+
